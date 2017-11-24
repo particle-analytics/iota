@@ -1,0 +1,25 @@
+{
+  "title": "Iota Documentation",
+  "version": "0.10.x",
+  "language": "en",
+  "variables": {
+    "host" : {
+      "url": "particle-analytics.github.io/docs"
+    }
+  },
+  "links": {
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false
+    }
+  },
+  "plugins": ["collapsible-menu"],
+  "pluginsConfig": {
+    "fontSettings": {
+        "theme": "white",
+        "size": 2
+    }
+  }
+}

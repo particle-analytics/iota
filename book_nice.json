@@ -1,0 +1,25 @@
+{
+  "title": "Iota Documentation",
+  "version": "0.10.x",
+  "gitbook": ">=2.4.0",
+  "language": "en",
+  "theme": "theme",
+  "variables": {
+  },
+  "links": {
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false,
+      "all": false
+    }
+  },
+  "plugins": ["toggle-chapters"],
+  "pluginsConfig": {
+    "fontSettings": {
+        "theme": "white",
+        "size": 2
+    }
+  }
+}

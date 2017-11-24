@@ -1,0 +1,958 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Output · Iota Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../tutorials/" />
+    
+    
+    <link rel="prev" href="cg_Averaging.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    HOME
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../release_notes/">
+            
+                <a href="../../release_notes/">
+            
+                    
+                    Release Notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../release_notes/release_17.3.1.html">
+            
+                <a href="../../release_notes/release_17.3.1.html">
+            
+                    
+                    17.3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Manual
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../dashboard/dashboard_intro.html">
+            
+                <a href="../dashboard/dashboard_intro.html">
+            
+                    
+                    Dashboard
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../dashboard/dashboard_intro.html">
+            
+                <a href="../dashboard/dashboard_intro.html#Creating a new project">
+            
+                    
+                    Creating a new project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../dashboard/dashboard_intro.html">
+            
+                <a href="../dashboard/dashboard_intro.html#Loading a project">
+            
+                    
+                    Loading a project
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../project/project_intro.html">
+            
+                <a href="../project/project_intro.html">
+            
+                    
+                    Project
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../project/project_datasets.html">
+            
+                <a href="../project/project_datasets.html">
+            
+                    
+                    Datasets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../project/project_screenshots.html">
+            
+                <a href="../project/project_screenshots.html">
+            
+                    
+                    Screenshots
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../project/project_graphs.html">
+            
+                <a href="../project/project_graphs.html">
+            
+                    
+                    Graphs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../project/project_videos.html">
+            
+                <a href="../project/project_videos.html">
+            
+                    
+                    Videos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.5" data-path="../project/project_meshes.html">
+            
+                <a href="../project/project_meshes.html">
+            
+                    
+                    Meshes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.6" data-path="../project/project_files.html">
+            
+                <a href="../project/project_files.html">
+            
+                    
+                    Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.7" data-path="../project/project_variables.html">
+            
+                <a href="../project/project_variables.html">
+            
+                    
+                    Variables
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.8" data-path="../project/project_list_scenarios.html">
+            
+                <a href="../project/project_list_scenarios.html">
+            
+                    
+                    List of Scenarios
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.8.1" data-path="../project/project_list_scenarios.html">
+            
+                <a href="../project/project_list_scenarios.html">
+            
+                    
+                    Creating a new scenario
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.8.2" data-path="../project/project_list_scenarios.html">
+            
+                <a href="../project/project_list_scenarios.html">
+            
+                    
+                    Loading a scenario
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.8.3" data-path="../project/project_list_scenarios.html">
+            
+                <a href="../project/project_list_scenarios.html#Cloning a Scenario">
+            
+                    
+                    Cloning a scenario
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.9" data-path="../project/Batch_processing.html">
+            
+                <a href="../project/Batch_processing.html">
+            
+                    
+                    Batch-processing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../scenario/scenario_intro.html">
+            
+                <a href="../scenario/scenario_intro.html">
+            
+                    
+                    Scenario
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../pre/pre_intro.html">
+            
+                <a href="../pre/pre_intro.html">
+            
+                    
+                    Pre-processing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../pre/cretaing-a-simple-geometry.html">
+            
+                <a href="../pre/cretaing-a-simple-geometry.html">
+            
+                    
+                    Cretaing a Simple Geometry
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1.1" data-path="../pre/create_line.html">
+            
+                <a href="../pre/create_line.html">
+            
+                    
+                    Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.1.2" data-path="../pre/create_circle.html">
+            
+                <a href="../pre/create_circle.html">
+            
+                    
+                    Circle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.1.3" data-path="../pre/create_rectangle.html">
+            
+                <a href="../pre/create_rectangle.html">
+            
+                    
+                    Rectangle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.1.4" data-path="../pre/create_cuboid.html">
+            
+                <a href="../pre/create_cuboid.html">
+            
+                    
+                    Cuboid
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.1.5" data-path="../pre/create_cylinder.html">
+            
+                <a href="../pre/create_cylinder.html">
+            
+                    
+                    Cylinder
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../pre/Load_Mesh.html">
+            
+                <a href="../pre/Load_Mesh.html">
+            
+                    
+                    Loading a Mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../pre/Fill_Holes_Surface.html">
+            
+                <a href="../pre/Fill_Holes_Surface.html">
+            
+                    
+                    Filling holes on a Surface Mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../pre/Generate_Volume_Mesh.html">
+            
+                <a href="../pre/Generate_Volume_Mesh.html">
+            
+                    
+                    Generating\/Re-meshing a volume mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../pre/Generate_Surface_Mesh.html">
+            
+                <a href="../pre/Generate_Surface_Mesh.html">
+            
+                    
+                    Remeshing a surface mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../post/post_intro.html">
+            
+                <a href="../post/post_intro.html">
+            
+                    
+                    Post-processing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../graph/graph_intro.html">
+            
+                <a href="../graph/graph_intro.html">
+            
+                    
+                    Graph
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="coarse_graining_intro.html">
+            
+                <a href="coarse_graining_intro.html">
+            
+                    
+                    Coarse-graining
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.1" data-path="coarse_graining_intro.html">
+            
+                <a href="coarse_graining_intro.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.2" data-path="cg_setting_cg.html">
+            
+                <a href="cg_setting_cg.html">
+            
+                    
+                    Coarse-granining module
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.2.1" data-path="cg_Loading_Mesh.html">
+            
+                <a href="cg_Loading_Mesh.html">
+            
+                    
+                    Loading a Mesh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.2.2" data-path="cg_Input.html">
+            
+                <a href="cg_Input.html">
+            
+                    
+                    Input
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.2.3" data-path="cg_Averaging.html">
+            
+                <a href="cg_Averaging.html">
+            
+                    
+                    Averaging
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7.2.4" data-path="cg_Output.html">
+            
+                <a href="cg_Output.html">
+            
+                    
+                    Output
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../tutorials/">
+            
+                <a href="../../tutorials/">
+            
+                    
+                    Tutorials
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../licenses/">
+            
+                <a href="../../licenses/">
+            
+                    
+                    Licensing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../licenses/iota-license.html">
+            
+                <a href="../../licenses/iota-license.html">
+            
+                    
+                    Iota-Suite End User Agreement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../licenses/third-party-licenses.html">
+            
+                <a href="../../licenses/third-party-licenses.html">
+            
+                    
+                    Third Party Licenses
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Output</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="output">Output</h1>
+<p>This section is used to define the output generation from the coarse-graning modules. This tabs exposes the output of special results for the coarse-grainig and DEM datasets, allows the user to scale the results and set post-anlyses to be performed over the coarse-graining results.</p>
+<p><img src="../../assets/iota-cg-Output_cropped.PNG" alt=""> <a name="Iota-CG-Output"></a></p>
+<p><em>Figure 55 - Output section of <a href="../../coarse_graining/cg_setting_cg.md">coarse-graining</a> module.</em></p>
+<h3 id="output-nane">Output Nane</h3>
+<p>Users need to provide a name that will be used for naming the coarse-graining (and optionally DEM) dataset generated by the coarse-graining module.</p>
+<h3 id="default-location">Default Location</h3>
+<p>This allows users to select where the outputs of the coarse-graning module will be stored. If <code>Default Location</code> is activated in the outputs will be stored in the default folders of the current scenario. If <code>Default Location</code> is not activated, users can click on the icon &quot;open folder&quot; in order select the output directory.</p>
+<h3 id="scale-results">Scale Results</h3>
+<p>When it is activated, it allows the users to introduce a number to scale all the results from the coarse-graining output. This option, combined with the spatial integrals, is useful when calculating the average in a certain direction or plane. The most common uses of the Scale Results option are:</p>
+<ul>
+<li><p>A change of units in the model.</p>
+</li>
+<li><p>The calculation of the average value in a certain direction/plane. This is performed in combination with the 1D/2D integrals.</p>
+</li>
+</ul>
+<h3 id="create-dem-datasets">Create DEM Datasets</h3>
+<p>When it is activated, the coarse-graining module generates a DEM dataset based on the input DEM data previously specified by the user in the <a href="../../coarse_graining/cg_Input.md">Input</a> tab of the coarse-graining. Furthermore, users can select the results to be generated for the DEM dataset.</p>
+<p><img src="../../assets/iota-cg-Output_DEM_cropped.PNG" alt=""> <a name="Iota-CG-OutputDEM"></a></p>
+<p><em>Figure 56 - List of results for the output DEM dataset generated by the <a href="../../coarse_graining/cg_setting_cg.md">coarse-graining</a> module.</em></p>
+<ul>
+<li><p><strong>Particle Results</strong>: results related with the individual particle properties.</p>
+<ul>
+<li><strong>Mass</strong></li>
+<li><strong>Volume</strong></li>
+<li><strong>Size</strong>: radius for spherical particles. In the case of non-spherical particles, the size corresponds to the radius if a sphere of a volume equivalent to the volume of the particle.</li>
+<li><strong>Velocity</strong></li>
+<li><strong>Custom Properties</strong>: any other particle properties that is not included in the previous list.</li>
+</ul>
+</li>
+<li><p><strong>Contact Results</strong>: results derived from the contact data.</p>
+<ul>
+<li><strong>Particle Total Force</strong>: total force on the particles (i.e., unbalanced particle force).</li>
+<li><strong>Contact Total Force</strong>: total force comming from the contacts interaction.</li>
+<li><strong>Normal force</strong>: force magnitude in the normal direction of the contacts (i.e., direction of the branch vector).</li>
+<li><strong>Tangential force</strong>: force magnitude in the tangential direction of the contacts.</li>
+<li><strong>Mobilized friction</strong>: ratio of the Tangential force to the Normal force of the contacts.</li>
+<li><strong>Coordination Number</strong>: Number of contacts of each particle.  </li>
+</ul>
+</li>
+</ul>
+<h3 id="coarse-graining-output">Coarse Graining Output</h3>
+<p>When it is activated, the coarse-graining module generates a coarse-grainig dataset based on the processing of the  input DEM data previously specified by the user in the <a href="../../coarse_graining/cg_Input.md">Input</a> tab of the coarse-graining. Furthermore, users can select the results to be generated for the coarse-graining dataset.</p>
+<p><img src="../../assets/iota-cg-Output_CG_cropped.PNG" alt=""> <a name="Iota-CG-OutputCG"></a></p>
+<p><em>Figure 57 - List of results for the output coarse-graining dataset generated by the <a href="../../coarse_graining/cg_setting_cg.md">coarse-graining</a> module.</em></p>
+<ul>
+<li><strong>Particle Results</strong>: coarse-graining results computed based on the particles data:<ul>
+<li><strong>Density</strong>: bulk or apparent density.</li>
+<li><strong>Solid Fraction</strong></li>
+<li><strong>Size</strong></li>
+<li><strong>Momentum</strong></li>
+<li><strong>Velocity</strong></li>
+<li><strong>Number of particles</strong></li>
+<li><strong>Custom properties</strong>: spatial averaged values of any custom properties contained in the input DEM data.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Stress Analysis Results</strong>: coarse-grainig results computed from the contact information and/or related with particles stress calculation:<ul>
+<li><strong>Total Stress</strong>: stress tensor including contact and kinetic stress. </li>
+<li><strong>Kinetic Stess</strong></li>
+<li><strong>Symmetric Stress</strong></li>
+<li><strong>Hydrostatic Pressure</strong></li>
+<li><strong>Deviatoric Stress</strong></li>
+<li><strong>Mobilized friction</strong></li>
+<li><strong>Number of contacts</strong></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Wall/Surface Results</strong>: coarse-graining results generated by the Surface/Wall analysis available in the section <code>Advanced</code> of the <a href="../../coarse_graining/cg_Averaging.md">Averaging</a> tab of the coarse-graining settings:<ul>
+<li><strong>Pressure</strong></li>
+<li><strong>Drag Force</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="post-analysis">Post-Analysis</h3>
+<p>Users can add here analysis based on the output results of the coarse-graining dataset and/or DEM dataset. The analysis can be provided by Iota (Built-in) or users can use their own python scripts by using the API provided with Iota.</p>
+<h4 id="mixing">Mixing</h4>
+<p>An example of a analysis provided with Iota is the <strong>Mixing Analysis</strong> using the Lacey mixig index. Adding this analysis to the Post-Analysis sectiong, the software will automatically create and import into the system the following graphs:</p>
+<ul>
+<li><strong>Lacey mixig index</strong>: temporal evolution of the Lacey Mixing index. If the number of particles group is larger than two, the graph will contain a trace per particle group.</li>
+<li><strong>Mixing Concentraction</strong>: temporal evolution of the average cocentration of each particle group. The graphs includes a trace per particle group.</li>
+<li><strong>Mixing Components</strong>: temporal evolution of the particle group concentration variance, the variance for a segregated mixture and the variance for a fully random mixture (one trace per component). If the number of particles group is larger than two, a graph per particle group will be generated.    </li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="cg_Averaging.html" class="navigation navigation-prev " aria-label="Previous page: Averaging">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../tutorials/" class="navigation navigation-next " aria-label="Next page: Tutorials">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Output","level":"1.3.7.2.4","depth":4,"next":{"title":"Tutorials","level":"1.4","depth":1,"path":"tutorials/README.md","ref":"tutorials/README.md","articles":[]},"previous":{"title":"Averaging","level":"1.3.7.2.3","depth":4,"path":"manual/coarse_graining/cg_Averaging.md","ref":"manual/coarse_graining/cg_Averaging.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","toggle-headers"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"toggle-headers":{},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"white","size":2},"highlight":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"theme","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"host":{"url":"particle-analytics.github.io"}},"version":"0.10.x","title":"Iota Documentation","language":"en","links":{"sharing":{"google":false,"facebook":false,"twitter":false,"weibo":false,"all":false}},"gitbook":">=2.4.0"},"file":{"path":"manual/coarse_graining/cg_Output.md","mtime":"2017-11-23T22:31:47.068Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-11-24T16:54:38.549Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-headers/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
